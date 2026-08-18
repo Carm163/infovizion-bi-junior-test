@@ -6,11 +6,10 @@ PATH_STOCK = PATH_SOURCE / 'stock'
 
 
 def main() -> None:
-    pass
+    print("Папка проекта:", PATH_SOURCE)
+    print("Папка движений:", PATH_TRANS)
+    print("Папка остатков:", PATH_STOCK)
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception:
-        print('Oops... Something wrong!')
+    main()
