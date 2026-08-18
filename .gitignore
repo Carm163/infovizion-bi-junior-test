@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 invent_trans/*.csv
 stock/*.csv
+output/*.csv
